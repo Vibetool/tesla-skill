@@ -17,6 +17,18 @@ You: "Honk so I can find it"
 AI:  Calls honk_horn → "Honked. The car is to your right."
 ```
 
+## Why wearables + Tesla
+
+Your agent goes wherever you go — smart glasses, smartwatch, AI pendant, earbuds. All of them speak MCP. None of them want you fumbling for your phone. With tesla-skill, controlling your car is one sentence away from whatever's on your wrist or collar:
+
+- 🛒 Both hands on a supermarket cart: *"Open the trunk."*
+- 🌧️ Kid on one arm, umbrella on the other: *"Unlock the doors, AC to 22°C."*
+- ❄️ Office at 4:50pm in January: *"Preheat the car."*
+- 🅿️ Stadium parking after a concert: *"Flash the lights so I can spot it."*
+- 💬 Mid-conversation, can't grab your phone: *"How much range have I got left?"*
+
+Your phone is busy / wet / dead / left in another room. Your wearable isn't.
+
 ## What it is
 
 A **Model Context Protocol (MCP) server** that exposes 10 tools any MCP-compatible AI agent can use to query and control your Tesla:

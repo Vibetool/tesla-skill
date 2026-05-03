@@ -10,6 +10,22 @@ If you wanted to build a Tesla integration for an AI assistant before 2024, you'
 
 I built tesla-skill because none of the existing options worked for "I want my AI agent (any of them) to talk to my Tesla, end-to-end, with reasonable security."
 
+## Why this fits the wearable era
+
+Personal-AI hardware is having a moment — Meta Ray-Bans, Plaud Note, Friend, Limitless pendant, every "AI necklace" Kickstarter, AirPods with on-device LLMs, Apple Watch running local models. They all converge on the same shape: **small, wearable, voice-first, often screenless**.
+
+None of them can comfortably run a full Tesla app. None can fumble through OAuth. But all of them can route a single sentence to a remote MCP server. tesla-skill is what sits on the other end of that route.
+
+The moments where this actually matters are mundane and frequent:
+
+- Walking out of a supermarket with both hands on a cart: *"Open the trunk."*
+- Carrying a sleeping kid into the apartment from the parking garage: *"Lock the car, sentry on."*
+- Just stepped off a ski lift in -10°C: *"Preheat to 22 and unlock when I'm at the door."* (geofencing in v0.2)
+- Mid-conversation in a meeting, glancing at your watch: *"Where's my car?"*
+- Phone is in the wash / snow / pool / left at home. Your watch and pendant still work. The car still listens.
+
+Most Tesla apps assume you'll pull out the phone. This skill assumes you won't.
+
 ## The design choices
 
 **Why MCP instead of an HTTP API?**
