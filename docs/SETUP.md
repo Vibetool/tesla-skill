@@ -38,7 +38,7 @@ This is a fuller version of [SKILL.md](../SKILL.md) for users running the instal
 ## Phase 2 — Clone & install
 
 ```bash
-git clone https://github.com/<repo>/tesla-skill.git
+git clone https://github.com/Vibetool/tesla-skill.git
 cd tesla-skill
 python3 -m venv .venv
 source .venv/bin/activate

@@ -61,7 +61,7 @@ Tell them to:
 ## Phase 2 — Clone & install dependencies
 
 ```bash
-git clone https://github.com/<repo>/tesla-skill.git
+git clone https://github.com/Vibetool/tesla-skill.git
 cd tesla-skill
 
 # Use uv if available, otherwise venv

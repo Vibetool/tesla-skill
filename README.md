@@ -35,7 +35,7 @@ Works with **Claude Desktop, Claude Code, Cursor, Codex, Continue.dev**, and any
 Send your agent (Claude Code, Codex, …) this repo URL and say **"install this"**:
 
 ```
-https://github.com/<you>/tesla-skill
+https://github.com/Vibetool/tesla-skill
 ```
 
 The agent reads [`SKILL.md`](SKILL.md) and walks you through setup — about **30 minutes of work** (plus 1-3 days for Tesla developer review).
@@ -87,7 +87,7 @@ See [`ABOUT.md`](ABOUT.md) for the design rationale.
 ## Quick start (development, no Tesla account needed)
 
 ```bash
-git clone https://github.com/<you>/tesla-skill.git
+git clone https://github.com/Vibetool/tesla-skill.git
 cd tesla-skill
 python3 -m venv .venv && source .venv/bin/activate
 pip install -e .
